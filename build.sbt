@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(
 	"org.apache.flink"  %%  "flink-connector-kafka-0.10" % "1.2.0",
 	"org.apache.flink" 	% 	"flink-jdbc" % "1.2.0",
 	"org.apache.flink"  %% 	"flink-scala" % "1.2.0",
-	"joda-time" 		% "joda-time" % "2.9.7",
+	"joda-time" 		% 	"joda-time" % "2.9.7",
+	"org.apache.flink" 	%%  "flink-connector-wikiedits" % "1.2.0",
 	"mysql" 			% 	"mysql-connector-java" % "5.1.40"
 )
 
