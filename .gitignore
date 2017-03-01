@@ -1,0 +1,14 @@
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+data/
+bin/
+build/
+.classpath
+.project
+.settings
+.cache-main
+.cache-tests
