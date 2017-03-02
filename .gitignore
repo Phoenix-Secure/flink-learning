@@ -12,3 +12,4 @@ build/
 .settings
 .cache-main
 .cache-tests
+activity*
