@@ -43,5 +43,4 @@ object PageRankTest extends App {
   rankContributions.print()
   val newRanks = rankContributions.groupBy("id").reduce((a, b) => Page(a.id, a.rank + b.rank))
   newRanks.print()
-  
 }
